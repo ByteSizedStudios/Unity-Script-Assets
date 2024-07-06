@@ -1,0 +1,45 @@
+The following scripts and assets are inspector tools, to validate or help
+manage the various variables that a script may have. These attributes can
+be used with unity's built in attributes. Only 1 attribte that are not 
+native to Unity's built in attributes may be used for each variable. 
+Unfortubately there is no way around this.
+
+Please keep in mind that the scripts and or assets may not be up to date!
+
+==============================================================================
+
+All other scritps created by me use these custom attributes. The scripts can 
+be modfied to not include the custom attributes. Simply remove the any custom
+attribute and remove "using ByteSizedAttributes;" from the script and it will work.
+
+For any script would like to use the custom attributes simply put 
+"using ByteSizedAttributes;" at the top of the script.
+
+==============================================================================
+
+This is every custom attributes that are available for use.
+Custom Attributes:
+
+[AbsoluteValue]
+[NegativeValue]
+
+[MinValue(X)]
+[MaxValue(X)]
+
+[MinMaxRange(X, Y)]
+
+[ShowIf("Variable Name", bool)]
+[HideIf("Variable Name", bool)]
+
+[ConditionalHide("Variable Name", bool)]
+[ConditionalEnumHide ("Variable Name", (int)enum)]
+
+[ReadOnly]
+
+[EnumFlags]
+
+[NotNullable]
+
+[Tag]
+
+[LineDivider(int, LineColors.Color)]
