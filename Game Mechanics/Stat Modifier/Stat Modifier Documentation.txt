@@ -1,0 +1,18 @@
+ Please keep in mind that the script and or asset may not be up to date with Unity!
+
+To use this script just simply import the script into your project. To use this
+script simply replace "MonoBehaviour" with this script's class name, "StatModifier".
+
+If the script does not work or you do not wish to download the Custom Attributes simply remove 
+the various custom attributes and the code will run fine.
+
+Calling the methods SaveStats(), LoadStats(), and ClearStats(), will store and grab any data that 
+are saved in Player Prefs, the ClearStats() will deleted any Player prefs stats relating to the
+modifier. These methods will only work if the modifier name variable is filled.
+
+Calling UpgradeModifier(...), will level up the stat modifier similar to the mods in
+Warframe.
+
+StatResults will return the value of the stat, based on the modifier type addative will return
+the exact value while percentage will return the value / 100. The FinalStatDescription is
+a string that is accessible in another class to get the description and stat of the stat.

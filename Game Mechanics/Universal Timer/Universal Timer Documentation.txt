@@ -1,0 +1,19 @@
+Please keep in mind that the script and or asset may not be up to date with Unity!
+
+To use this script just simply import the script into your project. To use this 
+script simply replace "MonoBehaviour" with this script's class name, "UniversalTimer".
+
+This script uses my custom attributes, should you wish to not use download my custom 
+attributes, simply remove "using ByteAttributes" and any attributes that is not 
+automaticaly detected by Unity.
+
+Calling the methods SwitchTimerFunction(...), will change the type of timer function.
+This method will also update the timer text if a text field is assinged. 
+
+Calling the method ResetTimer(...), will pause and reset the timer based on its function.
+This method will also update the timer text if a text field is assinged.
+
+While calling PauseUnpauseTimer() will change the active status on the timer function.
+
+RunTimer() must be called during the Update method, it is the core function and logic of the
+script. This method will also update the timer text if a text field is assinged.

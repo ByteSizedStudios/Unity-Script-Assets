@@ -1,0 +1,13 @@
+Please keep in mind that the script and or asset may not be up to date with Unity!
+
+To use this script just simply import the script into your project. To use this 
+script simply replace "MonoBehaviour" withthis script's class name, "LootGenerator".
+
+This script comes with a Scriptable object that contains every variable this script
+uses.
+
+IF the script does not work or you do not wish to download the Custom Attributes simply remove 
+the various custom attributes and the code will run fine.
+
+GenerateLoot(...) is the only method that is needed to be called. If the script has many
+different loot object and chances, the script will run slower.

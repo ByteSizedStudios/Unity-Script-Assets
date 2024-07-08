@@ -1,0 +1,20 @@
+Please keep in mind that the script and or asset may not be up to date with Unity!
+
+To use this script just simply import the script into your project. To use this 
+script simply replace "MonoBehaviour" with this script's class name, 
+"GravityManipulator" or "GravityBody".
+
+This set of scripts also come with "GravityManipulator2D" or "GravityBody2D" for a
+2D game enviorment. It both fucnctions the same and has the same functions with "2D"
+at the end.
+
+The Gravity Body script should be placed on the object that you wish to be affected
+by gravity.
+
+The Gravity Manipulator script should be placed on the object that you wish to affect
+other objects.
+
+IF the script does not work or you do not wish to download the Custom Attributes simply remove 
+the various custom attributes and the code will run fine.
+
+This script will run itself,

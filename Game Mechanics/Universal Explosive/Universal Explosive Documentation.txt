@@ -1,0 +1,10 @@
+Please keep in mind that the script and or asset may not be up to date with Unity!
+
+To use this script just simply import the script into your project. To use this
+script simply replace "MonoBehaviour" with this script's class name, "UniversalExplosive".
+
+If the script does not work or you do not wish to download the Custom Attributes simply remove 
+the various custom attributes and the code will run fine.
+
+TriggerExplosion() will be the script's primary function to be called, while there are multiple
+getter and setter methods for the various variables for the script.
