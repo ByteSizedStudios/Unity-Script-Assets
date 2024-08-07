@@ -206,5 +206,13 @@ public abstract class StatModifier : MonoBehaviour {
             }
         }
     }
+
+    /// <summary>
+    /// Returns the current level of the stat modifier.
+    /// </summary>
+    /// <returns></returns>
+    public int GetCurrentLevel() { 
+        return CurrentLevel;   
+    }
     #endregion
 }
