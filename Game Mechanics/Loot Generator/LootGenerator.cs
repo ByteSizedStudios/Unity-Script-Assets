@@ -8,7 +8,7 @@ using ByteSizedAttributes;
 /// </summary>
 
 [DisallowMultipleComponent]
-public abstract class LootGenerator : MonoBehaviour {
+public class LootGenerator : MonoBehaviour {
     #region Variables
     [Header("Gatcha Loot Properties")]
     [Tooltip("Possible loot rewards with chances.")]

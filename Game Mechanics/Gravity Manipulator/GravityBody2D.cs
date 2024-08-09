@@ -9,7 +9,7 @@ using System.Collections.Generic;
 
 [DisallowMultipleComponent]
 [RequireComponent(typeof(Rigidbody2D))]
-public abstract class GravityBody2D : MonoBehaviour {
+public class GravityBody2D : MonoBehaviour {
     #region Gravity Body 2D Properties
     public bool enableGravity = true;
 

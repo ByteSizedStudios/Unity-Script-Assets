@@ -12,7 +12,7 @@ using ByteSizedAttributes;
 
 [DisallowMultipleComponent]
 [RequireComponent(typeof(Slider))]
-public abstract class UniversalUIBar : MonoBehaviour {
+public class UniversalUIBar : MonoBehaviour {
     public enum FillDirection { Right2Left, Left2Right, Up2Down, Down2Up}
 
     #region Universal UI Bar Properties

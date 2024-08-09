@@ -12,7 +12,7 @@ using System.Collections.Generic;
 [DisallowMultipleComponent]
 [RequireComponent(typeof(BoxCollider))]
 [RequireComponent(typeof(SphereCollider))]
-public abstract class GravityManipulator : MonoBehaviour {
+public class GravityManipulator : MonoBehaviour {
     #region Variables
     private enum Gravity { Directional, Spherical }
     public enum ForceAxis { X, Y, Z }

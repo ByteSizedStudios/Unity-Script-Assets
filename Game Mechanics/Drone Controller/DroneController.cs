@@ -13,7 +13,7 @@ using ByteSizedAttributes;
 [DisallowMultipleComponent]
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(AudioSource))]
-public abstract class DroneController : MonoBehaviour {
+public class DroneController : MonoBehaviour {
     #region Drone Controller Variables
     [Header("Drone Controller Properties")]
     [Header("Drone Components")]

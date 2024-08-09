@@ -8,7 +8,7 @@ using ByteSizedAttributes;
 /// </summary>
 
 [DisallowMultipleComponent]
-public abstract class UniversalTimer : MonoBehaviour {
+public class UniversalTimer : MonoBehaviour {
     #region Variables
     private enum TimerFunction { CountUp, CountDown }
     private enum TimerTextOutput { Minutes, Seconds }

@@ -17,7 +17,7 @@ using ByteSizedAttributes;
 
 [DisallowMultipleComponent]
 [RequireComponent(typeof(SphereCollider))]
-public abstract class UniversalExplosive : MonoBehaviour {
+public class UniversalExplosive : MonoBehaviour {
     #region Universal Explosive Properties
     private enum TriggerTypes { Timer, Trigger }
 

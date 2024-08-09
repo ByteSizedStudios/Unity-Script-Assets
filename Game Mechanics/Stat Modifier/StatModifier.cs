@@ -10,7 +10,7 @@ using ByteSizedAttributes;
 /// abilites, and upgrades.
 /// </summary>
 
-public abstract class StatModifier : MonoBehaviour {
+public class StatModifier : MonoBehaviour {
     #region Variables
     public enum ModifyType { Additive, Percentage };
     public enum StatType { Buff, Debuff };

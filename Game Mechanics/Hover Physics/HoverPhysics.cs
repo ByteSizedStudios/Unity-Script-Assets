@@ -11,7 +11,7 @@ using ByteSizedAttributes;
 
 [DisallowMultipleComponent]
 [RequireComponent(typeof(Rigidbody))]
-public abstract class HoverPhysics : MonoBehaviour {
+public class HoverPhysics : MonoBehaviour {
     #region Variables
     [Header("Hover Properties")]
     [Header("Rigidbody Properties")]
